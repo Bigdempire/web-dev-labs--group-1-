@@ -1,11 +1,17 @@
 # web-dev-labs--group-1-
-# Week 01 - HTML Document Structure
+# Week 01
+- HTML Document Structure
 
-## Objective To learn HTML basics including structure, navigation, images, and lists.
+## Objective 
 
-## What Was Done - Created 4 HTML pages - Added internal navigation links - Added external links - Added local and online images - Added ordered and unordered lists 
+To learn HTML basics including structure, navigation, images, and lists.
 
-## Challenges Faced - Linking pages correctly - Managing image paths 
+## What Was Done 
+- Created 4 HTML pages - Added internal navigation links - Added external links - Added local and online images - Added ordered and unordered lists 
+
+## Challenges Faced
+- Linking pages correctly
+-  - Managing image paths 
 
 ## Members Participated 
 PHILIPO DENICE ISACK	                 32907/T.2024
