@@ -1,0 +1,71 @@
+# Week 02 – Lists, Tables, and Forms
+
+## 🎯 Objective
+Reinforce HTML fundamentals by creating a structured, multi‑page website that incorporates:
+- Ordered and unordered lists
+- Advanced tables with `<thead>`, `<tbody>`, `rowspan`, and `colspan`
+- Forms designed using tables with proper validation
+
+---
+
+## 📂 What Was Done
+- Created **three web pages**:
+  - `index.html` (Home)
+  - `timetable.html` (Timetable)
+  - `contact.html` (Contact)
+- Implemented a **navigation bar** with internal links between all pages.
+
+### Page 1: Home (`index.html`)
+- Heading: *Welcome to My Student Portal*
+- Ordered list: Daily routine (Wake up, Attend classes, Study)
+- Unordered list: Hobbies (Reading, Coding, Sports)
+- Navigation links to Timetable and Contact pages
+
+### Page 2: Timetable (`timetable.html`)
+- Student timetable created using `<table>`
+- Structured with `<thead>` and `<tbody>`
+- Columns: Time, Monday–Friday
+- Used:
+  - **Rowspan** for subjects covering multiple time slots
+  - **Colspan** for lunch break spanning all days
+
+### Page 3: Contact (`contact.html`)
+- **Part A:** Basic contact form (Name, Email, Message, Submit button)
+- **Part B:** Student registration form inside a table layout:
+  - Full Name (required)
+  - Email (`type="email"`, required)
+  - Password (`type="password"`, required)
+  - Gender (radio buttons)
+  - Courses (checkboxes: HTML, CSS, JavaScript)
+  - Submit button
+- Validation applied using `required` and `type="email"`
+
+---
+
+---
+
+## ⚡ Challenges Faced
+- Structuring the timetable with correct **rowspan** and **colspan** usage.
+- Ensuring form validation worked properly with `required` and `type="email"`.
+- Maintaining consistent navigation across all pages.
+
+---
+
+## 👥 Members Participated
+- Member 1: [PHILIPO DENICE ISACK 32907/T.2024]  
+- Member 2: [IFUNYA NANCY ASIIMWE 33971/T.2024]  
+- Member 3: [ZAKARIA WILFRIDI MUGANYIZI 34602/T.2024]  
+- Member 4: [CLAUD SANKE MWAFULI 33377/T.2024]  
+- Member 5: [SAIDI MUKSINI HALFANI 34255/T.2024]  
+- Member 6: [HOWARD ADAM NYENZA 33719/T.2024]  
+
+---
+
+## ✅ Summary
+This week’s lab successfully demonstrated the ability to:
+- Build a multi‑page website with lists, tables, and forms.
+- Apply advanced table structures (`rowspan`, `colspan`).
+- Implement functional navigation and form validation.
+- Document and organize work for submission.
+
+All files and screenshots have been pushed to GitHub on the same day of the lab session.
