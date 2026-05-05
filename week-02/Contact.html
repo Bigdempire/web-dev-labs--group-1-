@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Student Portal</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+
+    <!-- Part A: Basic Contact Form -->
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+
+    <!-- Part B: Registration Form inside a Table -->
+    <h2>Student Registration Form</h2>
+    <form>
+        <table border="1" cellpadding="8">
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Courses:</td>
+                <td>
+                    <input type="checkbox" name="course" value="HTML"> HTML
+                    <input type="checkbox" name="course" value="CSS"> CSS
+                    <input type="checkbox" name="course" value="JavaScript"> JavaScript
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="timetable.html">Timetable</a>
+    </nav>
+</body>
+</html>
