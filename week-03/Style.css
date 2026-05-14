@@ -1,0 +1,31 @@
+/* External CSS - main styling */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Element selector */
+p {
+  color: #333;
+}
+
+/* Class selector */
+.section {
+  padding: 20px;
+  margin: 10px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+
+/* Group selector */
+h1, h2, h3 {
+  font-family: Verdana, sans-serif;
+}
+
+/* Descendant selector */
+nav ul li a {
+  font-weight: bold;
+}
