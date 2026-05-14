@@ -1,0 +1,70 @@
+# Week 03 – HTML Structure and CSS Styling
+
+## 🎯 Objective
+Apply **HTML structure** and **CSS styling** using all three methods:
+- Inline CSS
+- Internal (document-level) CSS
+- External CSS
+
+Demonstrate multiple selector types:
+- Element, Class, ID, Group, Descendant, and Pseudo-class.
+
+---
+
+## 📂 What Was Done
+- Created a **single webpage** (`index.html`) with the following sections:
+  - **Header:** Name + Title
+  - **Navigation Menu:** Anchor links to each section
+  - **About Section:** Paragraph + Image
+  - **Skills Section:** Unordered list of skills
+  - **Daily Routine Section:** Ordered list of daily activities
+
+- Applied **CSS styling** using:
+  - **External CSS (`style.css`):** Background color, typography
+  - **Internal CSS (`<style>` block):** Navigation menu styling, section headings
+  - **Inline CSS:** Applied to fewer than 5 elements (e.g., header text alignment, italic paragraph)
+
+---
+
+### HTML Structure
+- Header with `id="header"`
+- Navigation menu using `<nav><ul><li><a>>`
+- About section with text and image
+- Skills section with list items
+- Daily routine section with ordered list
+
+### CSS Demonstrations
+- **Element selector:** `p { color: #333; }`
+- **Class selector:** `.section { padding: 20px; }`
+- **ID selector:** `#header { text-align: center; }`
+- **Group selector:** `h1, h2, h3 { font-family: Verdana; }`
+- **Descendant selector:** `nav ul li a { font-weight: bold; }`
+- **Pseudo-class:** `nav ul li a:hover { background-color: #555; }`
+
+---
+
+## ⚡ Challenges Faced
+- Ensuring proper separation of styles between external, internal, and inline CSS.
+- Managing selector specificity when multiple styles applied to the same element.
+- Linking the external stylesheet correctly so styles loaded in the browser.
+
+---
+
+## 👥 Members Participated
+- Member 1: [PHILIPO DENICE ISACK 32907/T.2024]  
+- Member 2: [IFUNYA NANCY ASIIMWE 33971/T.2024]  
+- Member 3: [ZAKARIA WILFRIDI MUGANYIZI 34602/T.2024]  
+- Member 4: [CLAUD SANKE MWAFULI 33377/T.2024]  
+- Member 5: [SAIDI MUKSINI HALFANI 34255/T.2024]  
+- Member 6: [HOWARD ADAM NYENZA 33719/T.2024]  
+
+---
+
+## ✅ Summary
+This week’s lab successfully demonstrated:
+- Building a structured webpage with multiple sections.
+- Applying CSS styling through **external, internal, and inline methods**.
+- Using all required selector types including pseudo-class `:hover`.
+- Documenting and organizing work for submission.
+
+All files and screenshots have been pushed to GitHub on the same day of the lab session.
