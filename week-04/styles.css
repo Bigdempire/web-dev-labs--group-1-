@@ -1,0 +1,90 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Fixed Header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #e10f0f;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+/* Sticky Navigation */
+nav {
+  position: sticky;
+  top: 60px; /* sticks below header */
+  background: #570dd6;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Box Model */
+.box-model {
+  margin-top: 100px; /* push below header+nav */
+}
+.box {
+  padding: 20px;
+  border: 5px solid #333;
+  margin: 20px;
+  background: #a9b57e;
+}
+
+/* Positioning */
+.container {
+  position: relative;
+  border: 4px solid #959f2c;
+  padding: 25px;
+  margin: 30px;
+}
+.label {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  padding: 3px 8px;
+  font-size: 15px;
+}
+
+/* Float Layout */
+.main-content {
+  float: right;
+  width: 70%;
+  background: #e0f7fa;
+  padding: 20px;
+  margin: 10px;
+}
+.sidebar {
+  float: left;
+  width: 25%;
+  background: #ffe0b2;
+  padding: 15px;
+  margin: 20px;
+}
+
+/* Footer with Clear */
+footer {
+  clear: both;
+  background: #0e985a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
