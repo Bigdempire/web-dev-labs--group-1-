@@ -1,6 +1,6 @@
 # Week 03 – HTML Structure and CSS Styling
 
-## 🎯 Objective
+##  Objective
 Apply **HTML structure** and **CSS styling** using all three methods:
 - Inline CSS
 - Internal (document-level) CSS
@@ -11,7 +11,7 @@ Demonstrate multiple selector types:
 
 ---
 
-## 📂 What Was Done
+##  What Was Done
 - Created a **single webpage** (`index.html`) with the following sections:
   - **Header:** Name + Title
   - **Navigation Menu:** Anchor links to each section
@@ -43,14 +43,14 @@ Demonstrate multiple selector types:
 
 ---
 
-## ⚡ Challenges Faced
+##  Challenges Faced
 - Ensuring proper separation of styles between external, internal, and inline CSS.
 - Managing selector specificity when multiple styles applied to the same element.
 - Linking the external stylesheet correctly so styles loaded in the browser.
 
 ---
 
-## 👥 Members Participated
+##  Members Participated
 - Member 1: [PHILIPO DENICE ISACK 32907/T.2024]  
 - Member 2: [IFUNYA NANCY ASIIMWE 33971/T.2024]  
 - Member 3: [ZAKARIA WILFRIDI MUGANYIZI 34602/T.2024]  
@@ -60,7 +60,7 @@ Demonstrate multiple selector types:
 
 ---
 
-## ✅ Summary
+##  Summary
 This week’s lab successfully demonstrated:
 - Building a structured webpage with multiple sections.
 - Applying CSS styling through **external, internal, and inline methods**.
