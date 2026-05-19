@@ -1,0 +1,75 @@
+# Week 04 – Understanding Layout Control in CSS
+
+## Objective
+Develop control over layout by manipulating:
+- **Box model** (margin, padding, border)
+- **Positioning** (static, relative, absolute, fixed, sticky)
+- **Float and clear**
+
+The page must expose layout errors when concepts are misapplied.
+
+---
+
+##  What Was Done
+- Created a **multi-section webpage** (`index.html`) styled with `styles.css`.
+- Implemented **Box Model** concepts:
+  - Three stacked boxes with headings and paragraphs.
+  - Applied `padding`, `border`, and `margin` to demonstrate spacing effects.
+- Applied **Positioning**:
+  - Container with `position: relative`.
+  - Label (`NEW`) with `position: absolute` at top-right corner.
+  - Fixed header (`position: fixed`) and sticky navigation bar (`position: sticky`).
+- Built **Float Layout**:
+  - Main content floated left.
+  - Sidebar floated right.
+  - Footer with `clear: both` to prevent overlap.
+- Integrated all concepts into a **mini layout**:
+  - Fixed header + sticky nav.
+  - Two-column float layout.
+  - Content boxes styled with full box model.
+  - Labels positioned absolutely.
+  - Footer properly cleared.
+
+---
+
+### HTML Structure
+- **Header:** Fixed at top of page.
+- **Navigation bar:** Sticky below header.
+- **Box model section:** Three stacked boxes (`div`).
+- **Positioning section:** Container with paragraph + absolute label.
+- **Layout section:** Main content (left float) + Sidebar (right float).
+- **Footer:** Cleared to sit below floated elements.
+
+### CSS Demonstrations
+- **Box model:** `padding`, `margin`, `border` applied to `.box`.
+- **Positioning:** `relative` on container, `absolute` on label, `fixed` header, `sticky` nav.
+- **Float and clear:** `float: left` (main), `float: right` (sidebar), `clear: both` (footer).
+
+---
+
+##  Challenges Faced
+- Ensuring the **fixed header** and **sticky nav** did not overlap content.
+- Managing float behavior so sidebar and main content aligned correctly.
+- Remembering to apply `clear: both` to footer to avoid layout instability.
+- Linking `index.html` and `styles.css` correctly in GitHub folder structure.
+
+---
+
+## Members Participated
+- Member 1: [PHILIPO DENICE ISACK 32907/T.2024]  
+- Member 2: [IFUNYA NANCY ASIIMWE 33971/T.2024]  
+- Member 3: [ZAKARIA WILFRIDI MUGANYIZI 34602/T.2024]  
+- Member 4: [CLAUD SANKE MWAFULI 33377/T.2024]  
+- Member 5: [SAIDI MUKSINI HALFANI 34255/T.2024]  
+- Member 6: [HOWARD ADAM NYENZA 33719/T.2024]  
+
+---
+
+##  Summary
+This week’s lab successfully demonstrated:
+- Control of layout using **box model, positioning, and float/clear**.
+- Integration of all concepts into a single cohesive webpage.
+- Exposure of layout errors when misapplied (e.g., missing `clear`).
+- Proper documentation and organization for submission.
+
+All files (`index.html`, `styles.css`, and screenshots) have been pushed to GitHub in the `week-04/` folder on the same day of the lab session.
