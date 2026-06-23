@@ -1,0 +1,85 @@
+# Week 05 – DOM Manipulation: Student Grade Calculator
+
+##  Objective
+Develop a dynamic web application that:
+- Captures user input through an HTML form.
+- Processes data using **JavaScript**.
+- Updates the webpage instantly using **DOM manipulation** without page reload.
+- Validates input and computes grades in real time.
+
+---
+
+##  What Was Done
+- Designed a **user-friendly interface** (`index.html`) styled with `styles.css`:
+  - Page title: *Student Grade Calculator*.
+  - Input field (`id="scoreInput"`) for entering student scores.
+  - Button (`id="calcBtn"`) labeled *Calculate Grade*.
+  - Results display section (`id="results"`).
+- Applied **CSS styling**:
+  - Centered layout with borders, background colors, and readable fonts.
+  - Proper spacing using margin and padding.
+- Implemented **JavaScript functionality** (`script.js`):
+  - Attached a click event listener to the button.
+  - Captured and validated user input (must be a number between 0–100).
+  - Displayed error messages for invalid input.
+  - Used `if-else` statements to compute grades:
+    - 70–100 → A  
+    - 60–69 → B  
+    - 50–59 → C  
+    - 40–49 → D  
+    - Below 40 → F
+  - Updated results dynamically using `innerHTML`.
+  - Reset input field after each calculation for immediate reuse.
+- Added **optional extensions**:
+  - Color-coded results (e.g., green for A, red for F).
+  - Grade descriptions (e.g., “Excellent”, “Fail”).
+  - Keyboard support (Enter key triggers calculation).
+
+---
+
+###  HTML Structure
+- **Header:** Title of the page.
+- **Input field:** For score entry.
+- **Button:** Triggers grade calculation.
+- **Results section:** Displays score and grade dynamically.
+
+###  CSS Styling
+- Centered container with borders and background.
+- Input and button styled for clarity and usability.
+- Results section styled with dynamic color changes.
+
+### ⚙️ JavaScript Features
+- **Event handling:** `addEventListener("click")` and Enter key support.
+- **Validation:** Ensures score is numeric and within range.
+- **DOM manipulation:** Updates results instantly with `innerHTML`.
+- **Reset functionality:** Clears input field after each calculation.
+
+---
+
+## Challenges Faced
+- Ensuring proper validation for edge cases (e.g., empty input, non-numeric values).
+- Managing dynamic DOM updates without page reload.
+- Implementing color-coded feedback for grades.
+- Linking `index.html`, `styles.css`, and `script.js` correctly in GitHub folder structure.
+
+---
+
+##  Members Participated
+- Member 1: [PHILIPO DENICE ISACK 32907/T.2024]  
+- Member 2: [IFUNYA NANCY ASIIMWE 33971/T.2024]  
+- Member 3: [ZAKARIA WILFRIDI MUGANYIZI 34602/T.2024]  
+- Member 4: [CLAUD SANKE MWAFULI 33377/T.2024]  
+- Member 5: [SAIDI MUKSINI HALFANI 34255/T.2024]  
+- Member 6: [HOWARD ADAM NYENZA 33719/T.2024]  
+
+---
+
+##  Summary
+This week’s lab successfully demonstrated:
+- Real-time **DOM manipulation** for dynamic webpage updates.
+- Input validation and error handling in JavaScript.
+- Grade computation using control statements.
+- Enhanced interactivity with reset functionality and keyboard support.
+- Proper documentation and organization for submission.
+
+All files (`index.html`, `styles.css`, `script.js`, and screenshots) have been pushed to GitHub in the `week-05/` folder on the same day of the lab session.
