@@ -1,1 +1,74 @@
+# Gym Membership Management System – Django Project
+
+## Objective
+The objective of this project is to design and implement a **Gym Membership Management System** using the Django framework. The system streamlines the management of gym members, trainers, subscription plans, attendance tracking, and payments. It demonstrates Django’s MVC architecture, project structure, URL routing, database design, and admin dashboard integration.
+
+---
+
+## Project Description
+The **Gym Membership Management System** is a web-based application that provides a centralized platform for managing all aspects of a gym’s operations.  
+
+### Key Features:
+- **Member Registration & Profiles**  
+  Manage personal details, contact information, and membership status.
+- **Subscription Plans**  
+  Define membership plans (monthly, quarterly, yearly) with duration, price, and benefits.
+- **Trainer Management**  
+  Register trainers with specialties and schedules, assign them to members or classes.
+- **Attendance Tracking**  
+  Record member check-ins daily to monitor usage frequency.
+- **Payment Records**  
+  Log payments against each member for financial accountability.
+- **Admin Dashboard**  
+  Use Django’s admin interface to manage members, trainers, subscriptions, attendance, and payments.
+
+This project highlights the importance of **database-driven applications** in real-world scenarios. It shows how Django can be used to build modular, maintainable, and user-friendly systems for fitness and wellness management.
+
+---
+
+## What Was Done
+- **Environment Setup**: Installed Python, created virtual environment, installed Django, verified installation.  
+- **Project Creation**: Started a Django project named `gym_system`.  
+- **Applications Created**: Developed apps for `members`, `subscriptions`, `trainers`, and `attendance`.  
+- **App Registration**: Registered apps in `INSTALLED_APPS`.  
+- **URL Routing**: Configured `urls.py` in each app and connected them to the project’s root `urls.py`.  
+- **Basic View**: Implemented a simple view returning “Gym Membership Management System”.  
+- **Database Design**: Designed ERD with entities: Member, Trainer, SubscriptionPlan, Attendance, Payment.  
+- **Admin Dashboard**: Created superuser account and accessed Django admin interface.  
+- **Documentation**: Prepared ERD diagram and group member list in `docs/`.  
+
+---
+
+## ERD Entities
+- **Member**: MemberID, Name, Contact, PlanID, JoinDate  
+- **Trainer**: TrainerID, Name, Specialty, Schedule  
+- **SubscriptionPlan**: PlanID, PlanName, Duration, Price  
+- **Attendance**: AttendanceID, MemberID, Date, TimeIn, TimeOut  
+- **Payment**: PaymentID, MemberID, Amount, Date  
+
+---
+
+## Challenges Faced
+- Configuring multiple apps and ensuring proper URL routing.  
+- Designing relationships between members, trainers, and subscription plans.  
+- Linking attendance records correctly to members.  
+- Managing migrations and database consistency.  
+- Structuring the GitHub repository according to submission requirements.  
+
+---
+
+## Members Participated
+- PHILIPO DENICE ISACK 32907/T.2024  
+- IFUNYA NANCY ASIIMWE 33971/T.2024  
+- ZAKARIA WILFRIDI MUGANYIZI 34602/T.2024  
+- CLAUD SANKE MWAFULI 33377/T.2024  
+- SAIDI MUKSINI HALFANI 34255/T.2024  
+- HOWARD ADAM NYENZA 33719/T.2024  
+
+---
+
+## Summary
+This project successfully demonstrates the development of a **Gym Membership Management System** using Django. It covers environment setup, project creation, app modularization, URL routing, database design, and admin dashboard integration. The system provides a practical solution for managing gym operations, ensuring efficiency in handling members, trainers, subscriptions, attendance, and payments.  
+
+All files (`manage.py`, apps, `requirements.txt`, ERD diagram, and documentation) have been organized and pushed to GitHub in the `gym_system/` repository for submission.
 
